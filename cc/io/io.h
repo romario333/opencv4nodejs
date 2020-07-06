@@ -1,10 +1,10 @@
 #include "macros.h"
-#include <opencv2/highgui.hpp>
+// #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include "Mat.h"
-#include "VideoCapture.h"
-#include "VideoWriter.h"
-#include "CatchCvExceptionWorker.h"
+// #include "VideoCapture.h"
+// #include "VideoWriter.h"
+// #include "CatchCvExceptionWorker.h"
 
 #ifndef __FF_IO_H_
 #define __FF_IO_H_
@@ -19,9 +19,9 @@ public:
 #if CV_VERSION_GREATER_EQUAL(3, 2, 0)
 	static NAN_METHOD(WaitKeyEx);
 #endif
-	static NAN_METHOD(MoveWindow);
-	static NAN_METHOD(DestroyWindow);
-	static NAN_METHOD(DestroyAllWindows);
+	// static NAN_METHOD(MoveWindow);
+	// static NAN_METHOD(DestroyWindow);
+	// static NAN_METHOD(DestroyAllWindows);
 	static NAN_METHOD(Imread);
 	static NAN_METHOD(ImreadAsync);
 	static NAN_METHOD(Imwrite);
