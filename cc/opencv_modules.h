@@ -61,10 +61,6 @@
 
 #endif
 
-#ifdef HAVE_OPENCV_HIGHGUI
 #ifdef HAVE_OPENCV_IMGCODECS
-#ifdef HAVE_OPENCV_VIDEOIO
 #define HAVE_IO
-#endif
-#endif
 #endif
